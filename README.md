@@ -1,4 +1,4 @@
 # hello-world
 Hi everyone 
 
-this is a little test to my fist repository on github :)
+First time on github so I try the simple functions as create new branch.   :)
