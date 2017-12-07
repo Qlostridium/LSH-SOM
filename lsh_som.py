@@ -2,9 +2,7 @@ import numpy as np
 from lshash import LSHash
 from scipy.spatial.distance import cdist
 from multiprocessing import Pool
-# import matplotlib.cm as cm
 import matplotlib.pyplot as plt
-# import matplotlib.collections as mcoll
 
 
 class LshSom :
@@ -132,7 +130,7 @@ class LshSom :
             self.init_lsh()
         self.plot_qe(error)
 
-
+'''
     def multi_train(self,inputs, nIterations=10,processnumb=4):
         sigma_init = self.sigma
         for iterations in range(nIterations):
@@ -145,7 +143,7 @@ class LshSom :
             self.sigma = sigma_init * (1.0 - float(iterations) / nIterations)
             # re-initialize the lsh with the new weights
             self.init_lsh()
-
+'''
     @staticmethod
     def create_subset(dataset,procesnumb):
         args=[]
